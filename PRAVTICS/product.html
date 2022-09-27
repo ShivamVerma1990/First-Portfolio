@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+
+    :root{
+    --red: #c91b28;
+--deep-black:#1e1e1e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #111111;
+    color: #ffffff;
+  
+}
+.product-title{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10%;
+    justify-content: space-between;
+align-items: center;
+}
+.product-title h1{
+   margin: 2% 0px;
+   font-size: 24px;
+}
+
+.view-all{
+    background-color: var(--red);
+    padding: 10% ;
+    outline: none;
+    color: #ffffff;
+}
+.web-site{
+    height: 100% ;
+    width: 100%;
+padding: 40px 40px;
+} 
+
+
+.project{
+    height: 400px;
+    width: 400px;
+    background-color: var(--deep-black);
+}
+.product-container{
+    display: flex;
+    justify-content: center;
+}
+.card-sec{
+    margin:2%;
+
+}
+.project-22{
+    margin-top:15%
+}
+.project-2{
+    margin-top: 15%;
+}
+.title h1{
+    padding: 2% 0px;
+    font-size: 24px;
+}
+.title p{
+    color: var(--red);
+}
+
+
+</style>
+
+</head>
+<body>
+    <div class="product-section">
+        <div class="product-title">
+            <div class="left-pro-colunm">
+<h1>FEATURED PROJECTS</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>    
+</div>
+            <div class="right-pro-colunm">
+                <button class="view-all">
+                    VIEW ALL
+                </button>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="product-card-1 card-sec">
+<div class="project-1">
+    <div class="project">
+    <img src="../Assets/Project1-Screenshot.jpg" alt="invalid" class="web-site">
+</div>
+<div class="title">
+    <h1>The Vintage</h1>
+    <p>KNOW MORE →</p>
+</div>
+</div>
+
+<div class="project-2">
+    <div class="project">
+        <img src="../Assets/Project2-Screenshot.jpg" alt="invalid" class="web-site">
+    </div>
+    <div class="title">
+        <h1>Foodasa</h1>
+        <p>KNOW MORE →</p>
+    </div>
+</div>      
+</div>
+
+            <div class="product-card-2 card-sec">
+                <div class="project-21">
+                    <div class="project">
+                        <img src="../Assets/Project3-Screenshot.jpg" alt="invalid" class="web-site">
+                    </div>
+                    <div class="title">
+                        <h1>Marco Accent</h1>
+                        <p>KNOW MORE →</p>
+                    </div>
+                </div>
+                
+                <div class="project-22">
+                    <div class="project">
+                        <img src="../Assets/Project4-Screenshot.jpg" alt="invalid" class="web-site">
+                    </div>
+                    <div class="title">
+                        <h1>Mozaik</h1>
+                        <p>KNOW MORE →</p>
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </div>
+</body>
+</html>

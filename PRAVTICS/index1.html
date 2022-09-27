@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+
+:root{
+    --red: #c91b28;
+}
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #111111;
+    color: #ffffff;
+  
+}
+    .Feature-Container{
+        
+
+  background: linear-gradient(90deg, #181818 50%, #111111 50%); 
+height: 800px;
+position: absolute;
+padding: 6%;  
+}
+.features-card{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.cards{
+    background-color: #1e1e1e;
+    margin: 0px 2%;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    
+.prop{
+    width: 60px;
+  height: 66px;
+  margin-bottom: 20px;
+
+}
+
+
+.cards p {
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.cards h5 {
+  color: var(--red);
+  font-size: 16px;
+}
+
+.card-2 {
+  background-color: var(--red);
+}
+
+.card-2 img {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.card-2 h5 {
+  color: #ffffff;
+}
+.experience-section{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* margin-top: 100px; */
+
+}
+.achievements-cards{
+    display: flex;
+flex-direction: row;
+
+}
+
+
+.card-exe{
+
+}
+.card-struc{
+    /* padding: 30px 40px; */
+    height: 150px;
+    width: 200px;
+    background-color: #1e1e1e;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+</style>
+</head>
+<body>
+    <section class="Feature-Container">
+<div class="features-card">
+    <div class="card-1 cards">
+        <img src="../Assets/ui-design.png" alt="invalid" class="prop">
+   <h1>UI Design</h1>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+<h3>KNOW MORE →</h3>    
+</div>
+<div class="card-2 cards">
+    <img src="../Assets/product-design.png" alt="invalid" class="prop">
+<h1>Product Design</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+<h3>KNOW MORE →</h3>    
+</div>
+<div class="card-3 cards">
+    <img src="../Assets/branding.png" alt="invalid" class="prop">
+<h1>Branding</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+<h3>KNOW MORE →</h3>    
+</div>
+</div>
+<div class="experience-section">
+<div class="experience-cards card-exe">
+    <h1>12</h1>
+    <p>Years Experience</p>
+</div>
+<div class="achievements-cards card-exe">
+    <div class="exe-card1">
+        <div class="exe-card11 card-struc">
+            <h1>60+</h1>
+            <p>Clients</p>
+        </div>
+        <div class="exe-card12 card-struc">
+            <h1>122+</h1>
+            <p>Completed Projects</p>
+        </div>
+    </div>
+    <div class="exe-card2 card-struc">
+        <div class="exe-card21 card-struc">
+            <h1>08</h1>
+            <p>Years Experience</p>
+        </div>
+        <div class="exe-card22 card-struc">
+            <h1>10</h1>
+            <p>Achievements</p>
+        </div>
+    </div>
+</div>    
+</div>
+</section>
+    
+</body>
+</html>
